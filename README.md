@@ -44,7 +44,10 @@ This is a all-in-one manual to start with KotlinSyft for MacOS
   ```
 - In the Jupyter Notebook console, navigate to ```examples/tutorials/model-centric-fl```
 - Run the notebook ```Create Plan```. This should host the model the model on PyGrid.
-  - Set variable ```girdAddress``` to <local-ip-address>:<port-that-PyGrid-node-is-running>
+  - Set variable ```gridAddress``` to local-ip-address:port-that-PyGrid-node-is-running
+  ```
+  ex) gridAddress = <local-ip>:3000
+  ```
 - Run demo-app in the KotlinSyft project
 - Enter the ip address with port (ex. xxx.xxx.x.x:3000)
 - Press button ```START FOREGROUND```
