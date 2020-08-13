@@ -8,21 +8,16 @@ This is a all-in-one manual to start with KotlinSyft for MacOS
   git clone --single-branch --branch dev https://github.com/OpenMined/PyGrid.git
   cd PyGrid
   ```
-<br>
 
 - Install **docker**
   - [Link to it](https://docs.docker.com/get-docker/)
 - Install **docker-compose**
   - Docker apps includes the Compose
-  
-<br>
 
 - Execute ```docker-compose``` in the command line
   ```
   docker-compose up --build --force-recreate
   ```
-
-<br>
 
 - Install **PySyft** (newest version: v0.2.8) in the virtual environment
   ```
