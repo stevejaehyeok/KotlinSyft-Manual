@@ -19,7 +19,7 @@ This is a all-in-one manual to start with KotlinSyft for MacOS
   docker-compose up --build --force-recreate
   ```
 
-- Install **PySyft** (newest version: v0.2.8) in the virtual environment
+- Install **PySyft** (master branch) in the virtual environment
   ```
   virtualenv -p python3 venv
   source venv/bin/activate
