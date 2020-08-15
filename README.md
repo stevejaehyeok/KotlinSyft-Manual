@@ -29,7 +29,7 @@ This is a all-in-one manual to start with KotlinSyft for MacOS
   git clone https://github.com/OpenMined/PySyft
   cd PySyft
   // git checkout tags/v0.2.8 -b v0.2.8 (This version tends to be unstable, thus use the latest master or check with the developers)
-  git checkout master
+  // git checkout master (automatically checked out the master branch)
   pip install .
   ```
 
