@@ -1,5 +1,5 @@
-# KotlinSyft All-in-one Starting Manual
-This is a all-in-one manual to start with KotlinSyft for MacOS
+# KotlinSyft Demo Manual
+This is a step-by-step manual to start with KotlinSyft demo for MacOS
 
 ## Requirements before starting with KotlinSyft
 - **PyGrid** needs to be installed
