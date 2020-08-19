@@ -11,7 +11,7 @@ This is a step-by-step manual to start with KotlinSyft demo for MacOS
 
 - Install **docker**
   - [Link to it](https://docs.docker.com/get-docker/)
-- Install **docker-compose**
+- Install **docker-compose** (no need for MacOS)
   - Docker apps includes the Compose
 
 - Execute ```docker-compose``` in the command line
