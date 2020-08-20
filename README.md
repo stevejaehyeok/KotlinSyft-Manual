@@ -1,5 +1,7 @@
 # KotlinSyft Demo Manual
-This is a step-by-step manual to start with KotlinSyft demo for MacOS
+This is a step-by-step manual to start with KotlinSyft demo for MacOS.
+
+I made it by communicating with the developers from Openmined
 
 ## Requirements before starting with KotlinSyft
 - **PyGrid** needs to be installed
