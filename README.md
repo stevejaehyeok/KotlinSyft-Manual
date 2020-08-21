@@ -1,4 +1,6 @@
 # KotlinSyft Demo Manual
+KotlinSyft: https://github.com/OpenMined/KotlinSyft
+
 This is a step-by-step manual to start with KotlinSyft demo for MacOS.
 
 I made it by communicating with the developers from Openmined
