@@ -5,6 +5,8 @@ This is a step-by-step manual to start with KotlinSyft demo for MacOS.
 
 I made it by communicating with the developers from Openmined
 
+Created for Team Revivers (SW Maestro 11th)
+
 ## Requirements before starting with KotlinSyft
 - **PyGrid** needs to be installed
   - Clone the dev branch and Change the directory to it:
