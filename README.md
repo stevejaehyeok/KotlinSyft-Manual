@@ -53,3 +53,42 @@ Created for Team Revivers (SW Maestro 11th)
 - Enter the ip address with port (ex. xxx.xxx.x.x:5000)
 - Press button ```START FOREGROUND```
 
+- conv_backward codes (from: https://becominghuman.ai/back-propagation-in-convolutional-neural-networks-intuition-and-code-714ef1c38199)
+```
+def conv_backward(dH, cache):
+    '''
+    The backward computation for a convolution function
+    
+    Arguments:
+    dH -- gradient of the cost with respect to output of the conv layer (H), numpy array of shape (n_H, n_W) assuming channels = 1
+    cache -- cache of values needed for the conv_backward(), output of conv_forward()
+    
+    Returns:
+    dX -- gradient of the cost with respect to input of the conv layer (X), numpy array of shape (n_H_prev, n_W_prev) assuming channels = 1
+    dW -- gradient of the cost with respect to the weights of the conv layer (W), numpy array of shape (f,f) assuming single filter
+    '''
+    
+    # Retrieving information from the "cache"
+    (X, W) = cache
+    
+    # Retrieving dimensions from X's shape
+    (n_H_prev, n_W_prev) = X.shape
+    
+    # Retrieving dimensions from W's shape
+    (f, f) = W.shape
+    
+    # Retrieving dimensions from dH's shape
+    (n_H, n_W) = dH.shape
+    
+    # Initializing dX, dW with the correct shapes
+    dX = np.zeros(X.shape)
+    dW = np.zeros(W.shape)
+    
+    # Looping over vertical(h) and horizontal(w) axis of the output
+    for h in range(n_H):
+        for w in range(n_W):
+            dX[h:h+f, w:w+f] += W * dH(h,w)
+            dW += X[h:h+f, w:w+f] * dH(h,w)
+    
+    return dX, dW
+```
